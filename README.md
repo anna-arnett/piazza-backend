@@ -16,14 +16,14 @@ A backend application for a simple social network where users can register, log 
 4. Start the server: npm start
 
 ## API Endpoints
-- **Auth Routes (/api/auth):**
+**Auth Routes (/api/auth):**
 1. POST /auth/register -> Register a new user
 2. POST /auth/login    -> Log in and receive JWT
 
-- **User Routes (/api/users):**
+**User Routes (/api/users):**
 1. GET /users          -> Get all users (protected)
 
-- **Post Routes (/api/posts):**
+**Post Routes (/api/posts):**
 1. GET /posts          -> Get all posts
 2. GET /posts/:id      -> Get a specific post (auth required)
 3. POST /posts         -> Create a new post (auth required)
